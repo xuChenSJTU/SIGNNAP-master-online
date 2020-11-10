@@ -2,7 +2,7 @@
 **This is a Pytorch implementation of our paper "On the Stability and Identifiability of Node Representations for Graphs"**    
   
 **1. Datasets:**   
-We use four banchmarks: Pubmed, Facbook, Coauthor-CS, Coauthor-Phy.  Amazon-Computer and Amazon-Photo
+We use six banchmarks: Pubmed, Facbook, Coauthor-CS, Coauthor-Phy.  Amazon-Computer and Amazon-Photo
 The transductive learning setting is conducted on Pubmed, Facbook, Coauthor-CS, Amazon-Computer, Amazon-Photo, and the inductive learning setting is conducted on Coauthor-Phy.  
 
 **2. Requirements:**  
