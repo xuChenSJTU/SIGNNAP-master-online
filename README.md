@@ -1,9 +1,5 @@
 # CGNN-master-online
- This is a Pytorch implementation of our paper "On the Stabilitiy and Identifiability of Node Representations for Graphs"
-
-# CGNN-master
 **This is a Pytorch implementation of our paper "On the Stability and Identifiability of Node Representations for Graphs"**    
-**Codes of baselines are also provided here.**  
   
 **1. Datasets:**   
 We use four banchmarks: Pubmed, Facbook, Coauthor-CS, Coauthor-Phy.  Amazon-Computer and Amazon-Photo
