@@ -1,4 +1,4 @@
-# CGNN-master-online
+# SSIGNN-master-online
 **This is a Pytorch implementation of our paper "On the Stability and Identifiability of Node Representations for Graphs"**    
   
 **1. Datasets:**   
