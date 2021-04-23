@@ -1,5 +1,5 @@
-# SSIGNN-master-online
-**This is a Pytorch implementation of our paper "On the Stability and Identifiability of Node Representations for Graphs"**    
+# CGNN-master-online
+**This is a Pytorch implementation of our paper "On the Stability and Identifiability of Graph Neural Networks for Learning Node Representations"**    
   
 **1. Datasets:**   
 We use six benchmarks: Pubmed, Facbook, Coauthor-CS, Coauthor-Phy.  Amazon-Computer and Amazon-Photo
