@@ -77,15 +77,15 @@ Ours(GAT): CUDA_VISIBLE_DEVICES=your_gpu_num python eval_unsupervised_gat.py --d
 
 **(2) On Facebook dataset**  
 ############################### Baselines ########################################  
-GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=facebook_page --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0  
+GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=facebook_page --sampling_percent=1.0 --type=multigcn --nbaseblocklayer=0  
 
-ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=facebook_page --sampling_percent=0.7 --type=resgcn --nbaseblocklayer=1  
+ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=facebook_page --sampling_percent=1.0 --type=resgcn --nbaseblocklayer=1  
 
-JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=facebook_page --sampling_percent=0.7 --type=densegcn --nbaseblocklayer=1  
+JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=facebook_page --sampling_percent=1.0 --type=densegcn --nbaseblocklayer=1  
 
-GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=facebook_page --sampling_percent=0.7 --nhiddenlayer=2  
+GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=facebook_page --sampling_percent=1.0 --nhiddenlayer=2  
 
-GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=facebook_page --sampling_percent=0.7 --nhiddenlayer=1  
+GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=facebook_page --sampling_percent=1.0 --nhiddenlayer=1  
 
 DropEdge(GCN): CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=facebook_page --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0  
 
@@ -125,15 +125,15 @@ Ours(GAT): CUDA_VISIBLE_DEVICES=your_gpu_num python eval_unsupervised_gat.py --d
 
 **(3) On Coauthor-CS dataset**  
 ############################### Baselines ########################################  
-GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_cs --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0  
+GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_cs --sampling_percent=1.0 --type=multigcn --nbaseblocklayer=0  
 
-ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_cs --sampling_percent=0.7 --type=resgcn --nbaseblocklayer=1  
+ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_cs --sampling_percent=1.0 --type=resgcn --nbaseblocklayer=1  
 
-JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_cs --sampling_percent=0.7 --type=densegcn --nbaseblocklayer=1  
+JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_cs --sampling_percent=1.0 --type=densegcn --nbaseblocklayer=1  
 
-GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=coauthor_cs --sampling_percent=0.7 --nhiddenlayer=2  
+GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=coauthor_cs --sampling_percent=1.0 --nhiddenlayer=2  
 
-GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=coauthor_cs --sampling_percent=0.7 --nhiddenlayer=1  
+GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=coauthor_cs --sampling_percent=1.0 --nhiddenlayer=1  
 
 DropEdge(GCN): CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_cs --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0  
 
@@ -173,15 +173,15 @@ Ours(GAT): CUDA_VISIBLE_DEVICES=your_gpu_num python eval_unsupervised_gat.py --d
 
 **(4) On Coauthor-Phy dataset**  
 ############################### Baselines ########################################  
-GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_phy --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0  
+GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_phy --sampling_percent=1.0 --type=multigcn --nbaseblocklayer=0  
 
-ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_phy --sampling_percent=0.7 --type=resgcn --nbaseblocklayer=1  
+ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_phy --sampling_percent=1.0 --type=resgcn --nbaseblocklayer=1  
 
-JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_phy --sampling_percent=0.7 --type=densegcn --nbaseblocklayer=1  
+JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_phy --sampling_percent=1.0 --type=densegcn --nbaseblocklayer=1  
 
-GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=coauthor_phy --sampling_percent=0.7 --nhiddenlayer=2  
+GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=coauthor_phy --sampling_percent=1.0 --nhiddenlayer=2  
 
-GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=coauthor_phy --sampling_percent=0.7 --nhiddenlayer=1  
+GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=coauthor_phy --sampling_percent=1.0 --nhiddenlayer=1  
 
 DropEdge(GCN): CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=coauthor_phy --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0  
 
@@ -222,15 +222,15 @@ Ours(GAT): CUDA_VISIBLE_DEVICES=your_gpu_num python eval_unsupervised_gat.py --d
 
 **(5) On Amazon-Com dataset**  
 ############################### Baselines ########################################  
-GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_computer --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0 --weight_decay=0.0    
+GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_computer --sampling_percent=1.0 --type=multigcn --nbaseblocklayer=0 --weight_decay=0.0    
 
-ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_computer --sampling_percent=0.7 --type=resgcn --nbaseblocklayer=1 --weight_decay=0.0      
+ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_computer --sampling_percent=1.0 --type=resgcn --nbaseblocklayer=1 --weight_decay=0.0      
 
-JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_computer --sampling_percent=0.7 --type=densegcn --nbaseblocklayer=1 --weight_decay=0.0     
+JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_computer --sampling_percent=1.0 --type=densegcn --nbaseblocklayer=1 --weight_decay=0.0     
 
-GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=amazon_computer --sampling_percent=0.7 --nhiddenlayer=2 --weight_decay=0.0     
+GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=amazon_computer --sampling_percent=1.0 --nhiddenlayer=2 --weight_decay=0.0     
 
-GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=amazon_computer --sampling_percent=0.7 --nhiddenlayer=1 --weight_decay=0.0     
+GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=amazon_computer --sampling_percent=1.0 --nhiddenlayer=1 --weight_decay=0.0     
 
 DropEdge(GCN): CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_computer --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0 --weight_decay=0.0     
 
@@ -270,15 +270,15 @@ Ours(GAT): CUDA_VISIBLE_DEVICES=your_gpu_num python eval_unsupervised_gat.py --d
 
 **(6) On Amazon-Pho dataset**  
 ############################### Baselines ########################################  
-GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_photo --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0 --weight_decay=0.0    
+GCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_photo --sampling_percent=1.0 --type=multigcn --nbaseblocklayer=0 --weight_decay=0.0    
 
-ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_photo --sampling_percent=0.7 --type=resgcn --nbaseblocklayer=1 --weight_decay=0.0      
+ResGCN: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_photo --sampling_percent=1.0 --type=resgcn --nbaseblocklayer=1 --weight_decay=0.0      
 
-JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_photo --sampling_percent=0.7 --type=densegcn --nbaseblocklayer=1 --weight_decay=0.0     
+JKNet: CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_photo --sampling_percent=1.0 --type=densegcn --nbaseblocklayer=1 --weight_decay=0.0     
 
-GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=amazon_photo --sampling_percent=0.7 --nhiddenlayer=2 --weight_decay=0.0     
+GraphSage: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_graphsage.py --dataset=amazon_photo --sampling_percent=1.0 --nhiddenlayer=2 --weight_decay=0.0     
 
-GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=amazon_photo --sampling_percent=0.7 --nhiddenlayer=1 --weight_decay=0.0     
+GAT: CUDA_VISIBLE_DEVICES=your_gpu_num python train_news_gat.py --dataset=amazon_photo --sampling_percent=1.0 --nhiddenlayer=1 --weight_decay=0.0     
 
 DropEdge(GCN): CUDA_VISIBLE_DEVICES=your_gpu_num python train_new.py --dataset=amazon_photo --sampling_percent=0.7 --type=multigcn --nbaseblocklayer=0 --weight_decay=0.0     
 
