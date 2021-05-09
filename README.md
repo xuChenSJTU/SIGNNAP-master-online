@@ -1,5 +1,5 @@
 # CGNN-master-online
-**This is a Pytorch implementation of our paper "On the Stability and Identifiability of Graph Neural Networks for Learning Node Representations"**    
+**This is a Pytorch implementation of our paper "Learning Stable Node Representations against Perturbations"**    
   
 **1. Datasets:**   
 We use six benchmarks: Pubmed, Facbook, Coauthor-CS, Coauthor-Phy.  Amazon-Computer and Amazon-Photo
