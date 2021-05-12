@@ -1,4 +1,4 @@
-# CGNN-master-online
+# SIGNN-master-online
 **This is a Pytorch implementation of our paper "Learning Node Representations against Perturbations in Graph Neural Networks"**    
   
 **1. Datasets:**   
