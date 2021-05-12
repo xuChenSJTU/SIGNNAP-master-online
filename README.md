@@ -1,5 +1,5 @@
 # CGNN-master-online
-**This is a Pytorch implementation of our paper "Learning Stable Node Representations against Perturbations"**    
+**This is a Pytorch implementation of our paper "Learning Node Representations against Perturbations in Graph Neural Networks"**    
   
 **1. Datasets:**   
 We use six benchmarks: Pubmed, Facbook, Coauthor-CS, Coauthor-Phy.  Amazon-Computer and Amazon-Photo
