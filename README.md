@@ -1,5 +1,5 @@
-# SIGNN-master-online
-**This is a Pytorch implementation of our paper "Learning Node Representations against Perturbations in Graph Neural Networks"**    
+# SIGNNAP-master-online
+**This is a Pytorch implementation of our paper "Learning Node Representations against Perturbations"**    
   
 **1. Datasets:**   
 We use six benchmarks: Pubmed, Facbook, Coauthor-CS, Coauthor-Phy.  Amazon-Computer and Amazon-Photo
